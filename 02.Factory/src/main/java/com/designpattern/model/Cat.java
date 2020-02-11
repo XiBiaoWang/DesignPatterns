@@ -2,9 +2,7 @@ package com.designpattern.model;
 
 /**
  * @Classname Cat
- * @Description TODO
- * @Date 2020/2/10 15:09
- * @Created by 86135
+ * @Description 具体产品
  */
 public class Cat implements Animal {
     public void voice() {

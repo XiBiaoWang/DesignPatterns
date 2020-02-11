@@ -2,10 +2,9 @@ package com.designpattern.model;
 
 /**
  * @Classname Animal
- * @Description TODO
+ * @Description 抽象产品
  */
 public interface Animal {
     void voice();
-
     void eat();
 }

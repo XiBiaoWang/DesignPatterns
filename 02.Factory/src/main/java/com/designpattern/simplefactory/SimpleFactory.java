@@ -1,6 +1,5 @@
 package com.designpattern.simplefactory;
 
-import com.designpattern.factory.Factory;
 import com.designpattern.model.Animal;
 import com.designpattern.model.Dog;
 

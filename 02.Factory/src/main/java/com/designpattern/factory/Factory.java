@@ -1,22 +1,12 @@
 package com.designpattern.factory;
 
-import com.designpattern.model.Animal;
-import com.designpattern.model.Cat;
-import com.designpattern.model.Dog;
 
 /**
  * @Classname Factory
- * @Description TODO
+ * @Description 抽象工厂   接口定义 生产产品方法
  */
-public class Factory {
+public interface Factory {
+    TelePhone createPhone();
 
-    public static Animal getAnimal(String name){
-        if("dog".equals(name)){
-            return new Dog();
-        }else if("cat".equals(name)){
-            return new Cat();
-        }else{
-            return null;
-        }
-    }
+    Pad createPad();
 }
